@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100"
+   height="100"
+   viewBox="0 0 26.458333 26.458333"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   inkscape:export-filename="logo3.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="6.2550701"
+     inkscape:cx="35.731014"
+     inkscape:cy="58.112858"
+     inkscape:window-width="1440"
+     inkscape:window-height="767"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#b7db78;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3895"
+       width="5.0270834"
+       height="2.1166666"
+       x="2.3812499"
+       y="4.7624998" />
+    <rect
+       style="fill:#b7db78;fill-opacity:1;stroke:none;stroke-width:0.602925;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3895-6"
+       width="5.0270834"
+       height="2.1166666"
+       x="19.049999"
+       y="4.7624998" />
+    <rect
+       style="fill:#b7db78;fill-opacity:1;stroke:none;stroke-width:0.602925;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5375"
+       width="5.0270834"
+       height="2.1166666"
+       x="2.3812499"
+       y="19.579168" />
+    <rect
+       style="fill:#b7db78;fill-opacity:1;stroke:none;stroke-width:0.602925;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5386"
+       width="5.0270834"
+       height="2.1166666"
+       x="19.049999"
+       y="19.579168" />
+    <rect
+       style="fill:#9dcf49;fill-opacity:1;stroke:none;stroke-width:0.479157;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5397"
+       width="3.175"
+       height="2.1166666"
+       x="0"
+       y="12.170834" />
+    <rect
+       style="fill:#9dcf49;fill-opacity:1;stroke:none;stroke-width:0.479157;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5397-3"
+       width="3.175"
+       height="2.1166666"
+       x="23.283333"
+       y="12.170834" />
+    <ellipse
+       style="fill:none;stroke:#9dcf49;stroke-width:2.51341;stroke-dasharray:none;stroke-opacity:1"
+       id="path1631"
+       cx="13.229168"
+       cy="13.229166"
+       rx="9.3266296"
+       ry="9.3266277" />
+    <g
+       id="path12257"
+       transform="scale(0.95760767,1.044269)"
+       style="font-size:10.9961px;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';fill:#1f3e12;stroke:#204013;stroke-width:0.558628" />
+    <g
+       id="path12255"
+       transform="scale(0.95760767,1.044269)"
+       style="font-size:10.9961px;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';fill:#1f3e12;stroke:#204013;stroke-width:0.558628" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.2868px;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1f3e12;fill-opacity:1;stroke:#204013;stroke-width:0.624198;stroke-dasharray:none;stroke-opacity:1"
+       x="0.16812244"
+       y="15.555998"
+       id="text9137"
+       transform="scale(0.85483873,1.1698113)"><tspan
+         sodipodi:role="line"
+         id="tspan9135"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.2868px;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1f3e12;fill-opacity:1;stroke:#204013;stroke-width:0.624198;stroke-dasharray:none;stroke-opacity:1"
+         x="0.16812244"
+         y="15.555998">TWS</tspan></text>
+    <path
+       style="color:#000000;-inkscape-font-specification:'Audiowide, Normal';fill:#ddf2d4;-inkscape-stroke:none"
+       d="m 26.090377,23.404248 0.0059,-0.01367 v -0.02148 z"
+       id="path12182" />
+    <path
+       style="color:#000000;-inkscape-font-specification:'Audiowide, Normal';fill:#ddf2d4;-inkscape-stroke:none"
+       d="m 24.670455,22.13081 0.01953,0.03125 -0.0098,-0.02148 z"
+       id="path12178" />
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+.vscode/
+asserts/
+!dist/
+node_modules/
+src/
+test/
+.eslintrc.js
+.trc
+jest.config.js
+package-lock.json
+rollup.config.mjs
+tsconfig.json
+tsconfig.spec.json

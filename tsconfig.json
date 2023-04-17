@@ -1,0 +1,18 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*", "__sapper__/*", "dist/*"],
+
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es2015",
+    "isolatedModules": true,
+    "sourceMap": true,
+
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "types": ["svelte"],
+  }
+}
