@@ -1,5 +1,5 @@
 .vscode/
-asserts/
+assets/
 !dist/
 node_modules/
 src/
