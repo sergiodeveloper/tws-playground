@@ -33,6 +33,11 @@ const schema = new Schema({
         title: 'Product category',
         description: 'The category of the product',
       },
+      password: {
+        type: 'string',
+        required: false,
+        title: 'Password',
+      },
       session: {
         type: 'enum',
         required: true,

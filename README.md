@@ -10,6 +10,8 @@
 
 TWS Playground is a versatile utility that supports different types of variables, including textual, numeric, boolean, objects, and arrays. Its ability to handle nested objects enables the simulation of complex data structures make it an excellent tool for exploring and experimenting with TWS APIs. Furthermore, TWS Playground's responsiveness provides flexibility and convenience for usage on mobile devices.
 
+Click [here to view more information about TWS Server](https://www.npmjs.com/package/@tws-js/server) and [here to view more information about TWS Client](https://www.npmjs.com/package/@tws-js/client).
+
 ## Example form
 <img height="600" alt="Example form" src="https://user-images.githubusercontent.com/7635171/232383563-c5e9ee95-f544-4553-bbf7-f11fb6cdf7b8.png">
 

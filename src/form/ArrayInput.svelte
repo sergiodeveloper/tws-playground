@@ -1,6 +1,6 @@
 <script lang="ts">
 import { createEventDispatcher } from 'svelte';
-import type { ArrayTypeDefinition } from '@tws-js/server';
+import type { ArrayTypeDefinition } from '@tws-js/common';
 
 import PrimitiveValueInput from './PrimitiveValueInput.svelte';
 import ObjectInput from './ObjectInput.svelte';
