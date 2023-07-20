@@ -1,6 +1,6 @@
 <script lang="ts">
 import { createEventDispatcher, onMount } from 'svelte';
-import type { EnumTypeDefinition } from '@tws-js/server';
+import type { EnumTypeDefinition } from '@tws-js/common';
 import Select from '../component/Select.svelte';
 import NamedInput from './NamedInput.svelte';
 

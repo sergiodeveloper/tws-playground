@@ -1,6 +1,6 @@
 <script lang="ts">
 import { createEventDispatcher } from 'svelte';
-import type { ObjectTypeDefinition } from '@tws-js/server';
+import type { ObjectTypeDefinition } from '@tws-js/common';
 
 import NamedInput from './NamedInput.svelte';
 import PrimitiveValueInput from './PrimitiveValueInput.svelte';

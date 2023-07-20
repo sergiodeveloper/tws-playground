@@ -2,7 +2,7 @@
 import { createEventDispatcher } from 'svelte';
 import type {
   ArrayTypeDefinition, EnumTypeDefinition, ObjectTypeDefinition, PrimitiveTypeDefinition,
-} from '@tws-js/server';
+} from '@tws-js/common';
 
 import ArrayInput from '../form/ArrayInput.svelte';
 import PrimitiveValueInput from '../form/PrimitiveValueInput.svelte';
