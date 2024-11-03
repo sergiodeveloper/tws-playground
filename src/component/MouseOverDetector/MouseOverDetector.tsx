@@ -7,6 +7,8 @@ function MouseOverDetector(props: {
   onMouseLeaveY: () => void;
   showOutline: boolean;
 }) {
+  const { onMouseMoveY, onMouseOverY, onMouseLeaveY } = props;
+
   const rootRef = useRef<HTMLDivElement>(null);
 
   const [isOver, setIsOver] = useState(false);
@@ -25,17 +27,17 @@ function MouseOverDetector(props: {
       event.clientY <= bounds.y + bounds.height
 
     if (isWithinYBounds) {
-      props.onMouseMoveY();
+      onMouseMoveY();
     }
 
     if (!isOver && isWithinYBounds) {
       setIsOver(true);
-      props.onMouseOverY();
+      onMouseOverY();
     } else if (isOver && !isWithinYBounds) {
       setIsOver(false);
-      props.onMouseLeaveY();
+      onMouseLeaveY();
     }
-  }, [rootRef.current, props.onMouseMoveY, props.onMouseOverY, props.onMouseLeaveY, isOver]);
+  }, [onMouseMoveY, onMouseOverY, onMouseLeaveY, isOver]);
 
   useEffect(() => {
     const listener = (event: MouseEvent) => {

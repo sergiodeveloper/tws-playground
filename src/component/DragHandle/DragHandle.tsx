@@ -83,7 +83,7 @@ const DragHandle = (props: {
         height: document.documentElement.scrollHeight,
       };
     }
-  }, [onDragEnd, timerRef.current, setDragging, isDragging]);
+  }, [onDragEnd, setDragging, isDragging]);
 
 
   const handleMove = useCallback((event: { clientX: number, clientY: number }) => {

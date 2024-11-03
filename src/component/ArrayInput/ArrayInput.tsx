@@ -41,7 +41,7 @@ function ArrayInput(props: {
     });
 
     setArrayHash(Math.random().toString(36).substring(7));
-  }, [arrayValue, definition.item.type, onChange]);
+  }, [definition.item.type, onChange]);
 
   const removeRow = useCallback((index: number) => {
     setArrayValue((previousArrayValue) => {
@@ -54,7 +54,7 @@ function ArrayInput(props: {
     });
 
     setArrayHash(Math.random().toString(36).substring(7));
-  }, [arrayValue, onChange]);
+  }, [onChange]);
 
   const dragStartY = useRef(0);
   const [draggingIndex, setDraggingIndex] = useState<number | null>(null);

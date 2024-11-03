@@ -6,13 +6,15 @@ function BooleanInput(props: {
   onChange: (value: BooleanValue) => void;
   initialValue: BooleanValue;
 }) {
+  const { onChange } = props;
+
   const [value, setValue] = useState(props.initialValue.value || false);
 
   useEffect(() => {
     if (props.initialValue.value === null) {
-      props.onChange(new BooleanValue(value));
+      onChange(new BooleanValue(value));
     }
-  }, [props.initialValue, value, props.onChange]);
+  }, [props.initialValue, value, onChange]);
 
   return (
     <input

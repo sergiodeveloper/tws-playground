@@ -15,7 +15,7 @@ function validateValue(options: {
     // Replace commas with dots
     .replace(/,/g, '.')
     // Remove all characters that are not numbers or dots
-    .replace(/[^0-9\.]/g, '')
+    .replace(/[^0-9.]/g, '')
     // Keep only the dot nearest to the caret position
     .replace(/\./g, (_, offset, string) => {
       return offset + 1 !== options.caretPosition && string[options.caretPosition - 1] === '.'
@@ -57,11 +57,13 @@ function FloatInput(props: {
   placeholder: string | undefined;
   required: boolean;
 }) {
+  const { onChange } = props;
+
   const [placeholderVisible, setPlaceholderVisible] = useState(true);
 
   let initialValue = props.initialValue.value === null
     ? null
-    : parseFloat(String(props.initialValue.value).replace(/[^0-9-\.\,]/g, ''));
+    : parseFloat(String(props.initialValue.value).replace(/[^0-9-.,]/g, ''));
 
   if (initialValue !== null && isNaN(initialValue)) {
     initialValue = null;
@@ -85,13 +87,13 @@ function FloatInput(props: {
   useEffect(() => {
     const cleanValue = ['-', '.'].includes(value) ? '0' : value;
     if (cleanValue === '') {
-      props.onChange(new NumberValue(null));
+      onChange(new NumberValue(null));
     } else {
       const parsed = parseFloat(cleanValue);
       const number = isNaN(parsed) ? 0 : parsed;
-      props.onChange(new NumberValue(number));
+      onChange(new NumberValue(number));
     }
-  }, [value]);
+  }, [value, onChange]);
 
   return (
     <div

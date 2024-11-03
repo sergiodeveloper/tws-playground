@@ -34,11 +34,13 @@ function Select(props: {
       };
 
       selectRef.current.addEventListener('change', listener);
+
+      const elementForCleanup = selectRef.current;
       return () => {
-        selectRef.current?.removeEventListener('change', listener);
+        elementForCleanup.removeEventListener('change', listener);
       };
     }
-  }, [selectRef.current, options, onChange]);
+  }, [options, onChange]);
 
   return (
     <div className={`select-root ${props.required ? 'required' : ''}`} style={{ position: 'relative' }}>

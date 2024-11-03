@@ -24,7 +24,7 @@ function Info(props: { text: string }) {
         0
       )
     );
-  }, [window.innerWidth, textTranslateTop]);
+  }, [textTranslateTop]);
 
   useEffect(() => {
     window.addEventListener('resize', updateTooltipDimensions);
