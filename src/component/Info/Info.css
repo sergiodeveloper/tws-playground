@@ -1,0 +1,111 @@
+
+.info-root {
+  display: inline-block;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: visible;
+  border-radius: 50%;
+  vertical-align: middle;
+  text-align: left;
+
+  .icon {
+    user-select: none;
+    border-radius: 50%;
+    background-color: #ccc;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 16px;
+    text-align: center;
+    cursor: help;
+    font-family: monospace;
+    appearance: none;
+    border: none;
+    outline: none;
+    display: block;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+  }
+
+
+  .icon:hover, .icon:focus {
+    background-color: #aaa;
+  }
+
+  /* area on the right to allow mouse go over the tooltip */
+  .icon::after {
+    content: "";
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    width: 90%;
+    height: 120%;
+    background-color: transparent;
+    cursor: help;
+  }
+
+  .tooltip {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 14px;
+    width: 400px;
+    margin-left: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+
+  /* Make the tooltip visible when focusing the icon */
+  .icon:focus + .tooltip {
+    display: block;
+  }
+
+  .text {
+    display: inline-block;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    word-break: break-word;
+    max-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    cursor: text;
+  }
+
+  .left-triangle::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 1px;
+    transform: translateY(-50%) translateX(-100%);
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-right: 6px solid white;
+  }
+
+  .left-triangle::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%) translateX(-100%);
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-right: 6px solid #ccc;
+  }
+}
+
+.info-root:hover .tooltip {
+  display: block;
+}

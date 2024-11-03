@@ -1,0 +1,38 @@
+.input-root {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+
+  .input-name:not(:first-child),
+  .input-optional:not(:first-child) {
+    margin-left: 5px;
+  }
+
+  .info-root:not(:first-child) {
+    margin-left: 8px;
+  }
+
+  &.input-boolean {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+
+    & > div {
+      margin-right: 5px;
+    }
+
+    .input-name, .input-optional {
+      cursor: pointer;
+    }
+  }
+
+  .input-optional {
+    color: #999;
+  }
+
+  .input-optional, .input-name {
+    vertical-align: middle;
+  }
+}

@@ -1,0 +1,7 @@
+.root-form-root {
+  text-align: left;
+
+  .root-form-field {
+    margin-bottom: 15px;
+  }
+}

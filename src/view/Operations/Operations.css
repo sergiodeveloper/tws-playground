@@ -1,0 +1,67 @@
+
+.operations-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .operations-form-root {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 15px;
+    padding-bottom: 35px;
+    box-sizing: border-box;
+    width: 60%;
+    flex-shrink: 1;
+    border-radius: 40px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.08);
+    text-align: initial;
+  }
+
+  /* If the device is too small, remove box shadow and make it full width */
+  @media screen and (max-width: 800px) {
+    .operations-form-root {
+      width: 100%;
+      box-shadow: none;
+    }
+  }
+
+  .operation-selector select {
+    background-position: right 12px bottom 40%;
+    font-size: 19px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    padding-right: 46px !important;
+    padding-left: 15px !important;
+    background-position-x: calc(100% - 23px) !important;
+  }
+
+  .operations-description {
+    font-size: 17px;
+    padding: 10px 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .description {
+    text-align: center;
+    margin: 8px 0;
+  }
+
+  .submit-area {
+    margin: 15px 0;
+  }
+}

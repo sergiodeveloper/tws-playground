@@ -1,0 +1,45 @@
+
+.heading-root {
+  flex-grow: 0;
+  flex-shrink: 0;
+  display: inline-flex;
+  flex-direction: row;
+  gap: 6px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 3px 10px;
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: white;
+  border-bottom-right-radius: 15px;
+  text-decoration: none;
+  color: black;
+  outline: none;
+  transition: box-shadow 0.1s;
+
+  /* If the device is too small, add a light box shadow */
+  @media screen and (max-width: 800px) {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.08);
+  }
+
+  &:hover, &:focus {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .logo {
+    width: 30px;
+    height: 30px;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  span {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+  }
+}
