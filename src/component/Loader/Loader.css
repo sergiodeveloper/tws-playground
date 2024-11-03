@@ -1,0 +1,25 @@
+.loader-root {
+  aspect-ratio: 1;
+  display: grid;
+  border: 2px solid #0000;
+  border-radius: 50%;
+  border-right-color: #25b09b;
+  animation: l15 0.8s infinite linear;
+}
+
+.loader-root::before,
+.loader-root::after {
+  content: "";
+  grid-area: 1/1;
+  margin: 8%;
+  border: inherit;
+  border-radius: 50%;
+  animation: l15 2s infinite;
+}
+.loader-root::after {
+  margin: 25%;
+  animation-duration: 2s;
+}
+@keyframes l15{
+  100%{transform: rotate(1turn)}
+}

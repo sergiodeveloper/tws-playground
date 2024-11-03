@@ -1,0 +1,31 @@
+.array-input-root {
+  .array-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+    margin: 5px 0;
+    transition: transform 0.3s;
+    background-color: white;
+  }
+
+  .array-row.dragging {
+    box-shadow: 0 0 20px rgba(36, 117, 255, 0.5);
+    z-index: 10;
+    transition: box-shadow 0.1s;
+  }
+
+  .array-row-content {
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+
+  .array-row-controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}

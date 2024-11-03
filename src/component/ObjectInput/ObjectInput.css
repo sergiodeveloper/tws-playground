@@ -1,0 +1,28 @@
+
+.object-input-root {
+  border: 1px solid #dad4d4;
+  border-radius: 15px;
+  padding: 12px;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+
+  &.optional {
+    padding-top: 18px;
+  }
+
+  hr {
+    margin: 5px 0;
+    border: 0;
+    border-top: 1px solid #dad4d4;
+  }
+
+  .object-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &:not(:last-child) {
+      margin-bottom: 8px;
+    }
+  }
+}

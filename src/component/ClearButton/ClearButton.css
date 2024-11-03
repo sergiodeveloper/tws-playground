@@ -1,0 +1,30 @@
+
+.clear-button {
+  appearance: none;
+  border: none;
+  background: transparent;
+  color: #615f5f;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  display: flex;
+  margin: 0;
+  line-height: 25px;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  user-select: none;
+}
+
+.clear-button:focus {
+  color: #c52a2a;
+}
+
+.clear-button:hover {
+  color: red;
+}
+
+.clear-button:active {
+  color: #b50000;
+}

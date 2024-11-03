@@ -6,14 +6,7 @@ module.exports = {
     'eslint-plugin-sonarjs'
   ],
   ignorePatterns: ['dist', 'jest.config.js', '.eslintrc.js', 'rollup.config.mjs'],
-  extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
-    'prettier',
-    'plugin:sonarjs/recommended',
-    'plugin:import/recommended',
-  ],
+  extends: ['eslint:recommended', 'plugin:@typescript-eslint/eslint-recommended', 'plugin:@typescript-eslint/recommended', 'prettier', 'plugin:sonarjs/recommended', 'plugin:import/recommended', 'plugin:storybook/recommended'],
   parserOptions: {
     project: './tsconfig.json',
     tsconfigRootDir: __dirname,

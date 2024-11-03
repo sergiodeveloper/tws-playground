@@ -1,0 +1,59 @@
+.headers-root {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  padding-bottom: 15px;
+
+  .headers-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    padding-right: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    user-select: none;
+  }
+
+  .headers-triangle {
+    font-size: 10px;
+  }
+
+  .content {
+    display: none;
+  }
+
+  .content.expanded {
+    display: block;
+  }
+
+  .headers-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+
+  .headers-header-equals {
+    margin: 0 10px;
+  }
+
+  .headers-header-key, .headers-header-value {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    min-width: 150px;
+  }
+
+  .headers-header-key > div:first-child, .headers-header-value > div:first-child {
+    flex-grow: 1;
+  }
+}
