@@ -7,6 +7,7 @@ import Result from '../Result/Result'
 import { renderMarkdown, replaceUnacceptedHtmlTags, Value } from '../../utils'
 import { InputTypeDefinition } from '@tws-js/common'
 import Loader from '../../component/Loader/Loader'
+import { RiArrowDownSLine, RiArrowUpSLine } from '@remixicon/react'
 
 
 function App(props: {
@@ -201,8 +202,14 @@ function App(props: {
                     className="pull-tab"
                     onClick={() => setResultPanelVisible(previous => !previous)}
                   >
-                    <div className="pull-tab-line"></div>
-                    <div className="pull-tab-line"></div>
+                    {/* <div className="pull-tab-line"></div>
+                    <div className="pull-tab-line"></div> */}
+
+                    {resultPanelVisible ? (
+                      <RiArrowDownSLine size={20} color="#333" />
+                    ) : (
+                      <RiArrowUpSLine size={20} color="#333" />
+                    )}
                   </button>
                   <div className="result-scrollable">
                     <div className="result-content">
